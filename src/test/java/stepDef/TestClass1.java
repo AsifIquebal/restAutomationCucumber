@@ -27,6 +27,7 @@ public class TestClass1 {
                 .extract()
                 .response();
     }
+    
     @Then("^status code should be (\\d+)$")
     public void validateGetAlbumStatusCode(int statusCode){
         Assert.assertEquals("Status Code mismatch",statusCode, response.getStatusCode());
