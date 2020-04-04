@@ -17,5 +17,5 @@ Feature: Rest API Call with Cucumber demo
     When user calls the photos api "http://jsonplaceholder.typicode.com/photos"
     Then on response following details should present
     |key|value|
-    |url[0]|http://placehold.it/600/92c952|
-    |url[4999]|http://placehold.it/600/6dd9cb|
+    |url[0]|https://via.placeholder.com/600/92c952|
+    |url[4999]|https://via.placeholder.com/600/6dd9cb|

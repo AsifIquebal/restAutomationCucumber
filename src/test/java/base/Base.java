@@ -1,6 +1,7 @@
 package base;
 
-import cucumber.api.java.Before;
+
+import io.cucumber.java.Before;
 import io.restassured.RestAssured;
 
 import java.io.FileInputStream;
