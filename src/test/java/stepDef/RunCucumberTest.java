@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         //plugin = {"pretty"},
         plugin = { "pretty", "html:target/cucumber-reports" },
         strict = true,
+        monochrome = true,
         features = {"src/test/resources"}
         )
 public class RunCucumberTest {
